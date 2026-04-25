@@ -1,0 +1,42 @@
+---
+import Layout from '../../layout/main.astro'
+---
+
+<Layout>
+	<div slot="main">
+        <a href="/webring">Go back</a>
+        <h1 align="center">🍞 BreadRing 🍞</h1>
+        <h3 align="center">The webring for bread lovers</h3>
+
+        <div class="webring-about">
+        <h3>Joining</h3>
+        <p>To join, you need to first follow these rules:</p>
+        <ul>
+            <li>Your website does not contain any NSFW, racist or hateful content.</li>
+            <li>You must add the webring widget to your site.</li>
+        </ul>
+        <p>If you follow these rules, complete <a href="https://crislzy.fillout.com/breadring" target="_blank">this form</a>.
+        <hr class="divider">
+        <h3>Widgets</h3>
+        <p>The widget is completely customizable, containing 2-3 links.</p>
+        <p>Example widget:</p>
+        <link rel="stylesheet" type="text/css" href="/webring/example.css">
+        <div class="breadring">
+            <a href="https://wwb.crislzy.xyz/webring/main.html?name=your_name&to=prev">Prev</a>
+            <a href="https://wwb.crislzy.xyz/webring">🥖Ring</a>
+            <a href="https://wwb.crislzy.xyz/webring/main.html?name=your_name&to=next">Next</a>
+        </div>
+        <p>Copy and paste this into your site, replacing <code>your_name</code> with your site's name:</p>
+
+        <textarea readonly>
+<link rel="stylesheet" type="text/css" href="https://wwb.crislzy.xyz/webring/example.css">
+<div class="breadring">
+<a href="https://wwb.crislzy.xyz/webring/main.html?name=your_name&to=prev">Prev</a>
+<a href="https://wwb.crislzy.xyz/webring">🥖Ring</a>
+<a href="https://wwb.crislzy.xyz/webring/main.html?name=your_name&to=next">Next</a>
+</div>
+        </textarea>
+        <p>You can also customize it however you want :)</p>
+        </div>
+	</div>
+</Layout>

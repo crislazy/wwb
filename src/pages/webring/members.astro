@@ -1,0 +1,17 @@
+---
+import Layout from '../../layout/main.astro'
+---
+
+<Layout>
+	<div slot="main">
+    <a href="/webring">Go back</a>
+        <h1 align="center">🍞 BreadRing 🍞</h1>
+        <h3 align="center">The webring for bread lovers</h3>
+
+        <div class="webring-members">
+            <p class="member-count"></p>
+            <span class="member-list"></span>
+            <script src="/webring/members.js" is:inline></script>
+        </div>
+	</div>
+</Layout>

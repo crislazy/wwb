@@ -1,0 +1,37 @@
+---
+
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="generator" content={Astro.generator} />
+        <title>WWB</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Random personal website">
+        <meta name="keywords" content="personal site, cris, crislzy, meowgallery">
+        <meta name="robots" content="noai, noimageai">
+        <meta property="og:site_name" content="wwb">
+        <meta property="og:title" content="World Wide Bread">
+        <meta property="og:description" content="The internet for bread">
+        <link rel="stylesheet" type="text/css" href="/styles/main.css?v=1.0">
+        <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+	</head>
+	<body>
+        <div class="container">
+            <div class="nav">
+                <div class="nav-title">
+                    <h2>World Wide 🍞</h2>
+                </div>
+                <div class="nav-links">
+                    <a href="/">Home</a>
+                    <a href="/about">About</a>
+                </div>
+            </div>
+            <div class="main">
+                <slot name="main">
+            </div>
+        </div>
+	</body>
+</html>

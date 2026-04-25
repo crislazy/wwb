@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+:root {
+    --breadring-bg: #faedcd;
+    --breadring-border: #d6c498;
+
+    --breadring-link: #c06014;
+    --breadring-link-hover: #8a3f0a;
+}
+
+.breadring {
+    font-family: DM Sans;
+    display: inline-block;
+    background: var(--breadring-bg);
+    border: 2px dashed var(--breadring-border);
+    border-radius: 10px;
+    padding: 8px 12px;
+}
+
+.breadring a {
+    margin: 0 8px;
+    font-weight: bold;
+    color: var(--breadring-link);
+}
+
+.breadring a:hover {
+    color: var(--breadring-link-hover);
+}
