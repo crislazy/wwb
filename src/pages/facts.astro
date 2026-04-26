@@ -1,0 +1,16 @@
+---
+import Layout from '../layout/main.astro'
+---
+
+<Layout>
+	<div slot="main">
+        <h1 align="center">🍞 facts</h1>
+        <br>
+        <div class="breadfacts">
+            <span id="fact" class="fact"></span>
+            <button onclick="breadfact()" class="facts-button">Get random fact</button>
+            <script src="/facts.js" is:inline>
+            </script>
+        </div>
+	</div>
+</Layout>
