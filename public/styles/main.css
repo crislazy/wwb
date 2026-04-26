@@ -3,7 +3,7 @@
 
 /* ==== Main ==== */
 :root {
-    --bg: rgb(244, 225, 189);
+    --bg: #f4e1bd;
     --card-bg: #faedcd;
     --card-border: #d6c498;
 
@@ -115,7 +115,7 @@ a:hover {
     margin: 0 auto;
     width: 20%;
     height: auto;
-    animation:spin 1.8s linear infinite
+    animation:spin 1.8s linear infinite;
 }
 
 @keyframes spin {
@@ -148,5 +148,20 @@ a:hover {
 }
 
 .breadfacts button:hover{
+    transform: scale(1.1) rotate(0.7deg);
+}
+.breadstickers{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+
+.breadstickers img{
+    width: 88px;
+    height: 31px;
+    transition: transform 0.2s;
+}
+
+.breadstickers img:hover{
     transform: scale(1.1) rotate(0.7deg);
 }
