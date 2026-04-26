@@ -1,8 +1,6 @@
 <h1 align="center">World Wide Bread</h1>
 <p align="center"><i>The source code for wwb.webcris.icu</i></p>
 
-<h1>WARNING: Website is work in progress</h1>
-
 [Getting Started](#getting-started) | [License](#license)
 
 ## Getting Started
